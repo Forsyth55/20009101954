@@ -1,5 +1,10 @@
 三个重要工具 git、tinkercad和markdown
 git网址：www.github.com
+1 git clone 添加一个库
+2 git add * 添加
+3 git commit
+4 git push 上传
+5 git pull 下载
 tinkercad网址：www.tinkercad.com
 开源硬件 arduino 
 官网:www.arduino.cc
