@@ -36,4 +36,4 @@ int main()
 }
 将执行一次的命令如设置引脚等放在setup里
 将需要多次执行的放在loop里
-还有其他的函数如控制模拟信号的可在Arduino 官网的DOCUMENTS里查询。
+还有其他的函数如控制模拟信号的可在Arduino 官网的DOCUMENTS里查询
