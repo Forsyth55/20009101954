@@ -1,0 +1,39 @@
+三个重要工具 git、tinkercad和markdown
+git网址：www.github.com
+tinkercad网址：www.tinkercad.com
+开源硬件 arduino 
+官网:www.arduino.cc
+电脑的定义：
+具有输入设备、输出设备、控制器、存储器、计算单元的机器
+开源硬件大大方便了人们的使用
+在虚拟开发环境tinkercad中模拟
+例1
+用Arduino Uno R3控制灯闪烁
+void setup()
+{
+  pinMode(13, OUTPUT);//将13引脚设置为输出
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);//将13引脚设置为高电位
+  delay(1000); // Wait for 1000 millisecond(s)。，等待1000毫秒
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+pinMode函数用于设置引脚模式
+digitalWrite函数用于改变传输数字信号的引脚状态
+delay函数表示延时
+Arduino使用一种类似c语言的编程语言，它有C语言中的int等数据类型，也有自己的数据类型如bool
+它的代码是这样
+int main()
+{
+    setup();
+    while(1){
+      loop();
+    }
+    return 0;
+}
+将执行一次的命令如设置引脚等放在setup里
+将需要多次执行的放在loop里
+还有其他的函数如控制模拟信号的可在Arduino 官网的DOCUMENTS里查询
