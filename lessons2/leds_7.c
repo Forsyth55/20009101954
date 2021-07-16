@@ -42,7 +42,7 @@ void loop()
       	digitalWrite(8,LOW);
       	digitalWrite(9,LOW);
       	break;    
-	case 4:
+    case 4:
       	for(i=7;i<14;i++){
       		digitalWrite(i,HIGH);
       	} 
@@ -50,14 +50,14 @@ void loop()
       	digitalWrite(10,LOW);
       	digitalWrite(13,LOW);
       	break;   
-	case 5:
+    case 5:
       	for(i=7;i<14;i++){
       		digitalWrite(i,HIGH);
       	} 
       	digitalWrite(12,LOW);
       	digitalWrite(9,LOW);
       	break;    
-	case 6:
+    case 6:
       	for(i=7;i<14;i++){
       		digitalWrite(i,HIGH);
       	} 
@@ -71,7 +71,7 @@ void loop()
       	digitalWrite(12,HIGH);
       	digitalWrite(11,HIGH);
       	break;    
-	case 8:
+    case 8:
       	for(i=7;i<14;i++){
       		digitalWrite(i,HIGH);
       	} 
